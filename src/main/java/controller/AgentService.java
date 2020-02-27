@@ -34,7 +34,7 @@ public class AgentService {
     }
 
     
-     public void addAnAgent(Agents a) { 
+    public void addAnAgent(Agents a) { 
         EntityManager em = DBUtil.getEmf().createEntityManager();
         EntityTransaction transaction = em.getTransaction();
 
